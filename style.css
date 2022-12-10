@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+section,
+nav {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.nav-bar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 0 35px;
+}
+
+.logo {
+  width: auto;
+  height: 30px;
+  object-fit: cover;
+}
+
+.nav-content {
+  list-style: none;
+  justify-content: space-between;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.nav-content {
+  display: flex;
+  list-style: none;
+  gap: 0 10px;
+}
+
+.links {
+  gap: 0 30px;
+  font-weight: 700;
+  color: #353535;
+}
+
+.nav-button {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: 15px;
+  margin-right: 8px;
+  border-radius: 10px;
+}
+
+.nav-button:hover {
+  box-shadow: rgb(59, 59, 156);
+  color: blue;
+  transition-duration: 300ms;
+}
+
+.nav-button2 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.nav-button2:hover {
+  background-color: blue;
+  transition-duration: 300ms;
+}
+
+.section1 {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.containerA {
+  padding-top: 40px;
+  margin-right: 5px;
+}
+
+.banner-heading {
+  padding-bottom: 30px;
+  font-size: 45px;
+  line-height: 50px;
+  font-weight: 700;
+  color: black;
+}
+
+.banner-heading1 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: 20px;
+  line-height: 30px;
+}
+
+.section-button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.section-button:hover {
+  background-color: blue;
+  transition-duration: 300ms;
+}
+
+.section2 {
+  display: flex;
+  padding-top: 200px;
+  padding-left: 250px;
+}
+
+.security-logo {
+  width: 130px;
+  height: auto;
+  padding-right: 30px;
+}
+
+.security-container {
+  font-weight: bold;
+  font-size: 33px;
+  padding-bottom: 20px;
+}
+
+.security-container1 {
+  line-height: 30px;
+  text-align: 20px;
+  padding-bottom: 40px;
+}
+
+.grid {
+  width: auto;
+  padding: 40px;
+  display: grid;
+  gap: 20px;
+  grid-auto-flow: row;
+  grid-template-columns: repeat(3, minmax(100px, 1fr));
+}
+
+.grid-item {
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 15px;
+  height: auto;
+  background-color: rgb(233, 227, 227);
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family: sans-serif;
+  color: black;
+}
+
+.item-1 {
+  grid-row: span 2;
+  font-size: 38px;
+  line-height: 48px;
+  background-color: white;
+}
+
+.grid-logo {
+  width: 50px;
+  height: 50px;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+
+.tittle {
+  font-weight: 700;
+  font-size: 15px;
+  font-family: 8-Bold !important;
+  line-height: 25px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+.text {
+  font-size: 15px;
+  font-family: DM Sans, sans-serif !important;
+  padding: 30px;
+  line-height: 22px;
+}
+
+.section4 {
+  background-color: white;
+}
+
+.phone-logo {
+  width: 256px;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  padding-left: 60px;
+  padding-top: 85px;
+}
+
+.content {
+  padding-left: 90px;
+}
+
+.sectn4-button {
+  background-color: white;
+  color: blueviolet;
+  height: 15px;
+  font-weight: bold;
+  padding: 20px;
+  margin-right: 8px;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+
+.access {
+  padding-top: 20px;
+  font-size: 50px;
+}
+
+.invest {
+  padding-top: 20px;
+  line-height: 20px;
+}
+
+.link {
+  color: purple;
+  padding-top: 25px;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.section-content {
+  padding: 60px 30px;
+  color: white;
+  background-color: blue;
+  width: auto;
+}
+
+.section5-container {
+  padding-top: 10px;
+  line-height: 30px;
+}
+
+.content-h1 {
+  font-weight: 700;
+  font-size: 45px;
+}
+
+.g-img {
+  width: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.g-img img {
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  object-position: middle center;
+}
+
+.section5 {
+  display: flex;
+  width: 100%;
+  padding: 0;
+  margin-top: 80px;
+}
+
+.section-content {
+  width: 50%;
+}
